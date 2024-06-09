@@ -32,7 +32,7 @@ public class PatientDaoTest
 
     @Test
     @Transactional
-    public void shouldRemoveVisitsWhenRemovingPatients() // TODO - naprawic relacje aby test przechodzil
+    public void shouldRemoveVisitsWhenRemovingPatients() // DONE - naprawic relacje aby test przechodził
     {
         // given
         final Collection<VisitEntity> visits = patientDao.findOne(1L).getVisits();

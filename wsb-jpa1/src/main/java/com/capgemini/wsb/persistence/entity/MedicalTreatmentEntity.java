@@ -3,6 +3,8 @@ package com.capgemini.wsb.persistence.entity;
 import com.capgemini.wsb.persistence.enums.TreatmentType;
 
 import javax.persistence.*;
+import java.util.Collection;
+import java.util.List;
 
 @Entity
 @Table(name = "MEDICAL_TREATMENT")
