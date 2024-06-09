@@ -40,7 +40,7 @@ public class PatientDaoImpl extends AbstractDao<PatientEntity, Long> implements 
     }
 
     @Override
-    public List<PatientEntity> findPatientsSharingSameLocationWithDoc(String firstName, String lastName) { // DONE - napisac query (do sprawdzenia)
+    public List<PatientEntity> findPatientsSharingSameLocationWithDoc(String firstName, String lastName) { // DONE - napisac query
         return entityManager.createQuery(
                         "SELECT DISTINCT p " +
                                 "FROM PatientEntity p " +
